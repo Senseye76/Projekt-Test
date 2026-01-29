@@ -45,11 +45,10 @@
 Prioriterar risker baserat på sannolikhet och påverkan, där påverkan väger tyngst.
 
 |Sannolikhet|---|Påverkan|---|Risknivå|
-  Hög            Hög          🔴Hög
-  Låg            Hög          🔴Hög
-  Hög            Låg          🟡Medel
-  Medel          Medel        🟡Medel
-  Låg            Låg          🟢Låg
+|  Hög    |       | Hög   |      | 🔴Hög  |
+|  Hög    |       | Låg |        | 🟡Medel |
+|  Medel  |       | Medel |      | 🟡Medel |
+| Låg   |        | Låg  |        |🟢Låg  |
 ----------------------------------------------
 
 | Risk | Sannolikhet | Påverkan | Risknivå |
