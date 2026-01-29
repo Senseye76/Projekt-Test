@@ -22,7 +22,19 @@
 - Risk för brutna länkar mellan de olika sidorna
 - Risk för inkosekvent beteended vid sidbyte
 
+### Produktlista 
+- Risk för att listan inte uppdateras efter ändringar
+- Risk för att fel objekt visas i listan
+
 
 ### Anvädarupplevelse 
 - Risk för att odydliga meddelanden
 - Risk för att användaren inte förstår nästa steg
+- Risk för otydliga knappar
+- Risk för dålig användbarhet på mindre skärmar
+- Risk för att systemet blir instabilt vid hög belastning
+
+
+### Kassa
+- Risk för att användaren inte får bekräftelse efter genomfördt köp
+- Risk för att processen avbryts utan tydligt felmeddelande
