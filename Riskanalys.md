@@ -38,3 +38,70 @@
 ### Kassa
 - Risk för att användaren inte får bekräftelse efter genomfördt köp
 - Risk för att processen avbryts utan tydligt felmeddelande
+
+
+------------
+### Risknivåer
+Prioriterar risker baserat på sannolikhet och påverkan, där påverkan väger tyngst.
+
+|Sannolikhet|---|Påverkan|---|Risknivå|
+  Hög            Hög          🔴Hög
+  Låg            Hög          🔴Hög
+  Hög            Låg          🟡Medel
+  Medel          Medel        🟡Medel
+  Låg            Låg          🟢Låg
+----------------------------------------------
+
+| Risk | Sannolikhet | Påverkan | Risknivå |
+|-----|------------|----------|----------|
+| Felmeddelanden visas inte korrekt | Medel | Medel | 🟡 Medel |
+| Obehöriga får åtkomst till kundvagn | Låg | Hög | 🔴 Hög |
+| Inloggning möjlig utan giltiga uppgifter | Låg | Hög | 🔴 Hög |
+| Session avslutas inte korrekt vid utloggning | Medel | Medel | 🟡 Medel |
+----------------------------------------------
+
+| Risk | Sannolikhet | Påverkan | Risknivå |
+|-----|------------|----------|----------|
+| Dataförlust vid uppdatering | Låg | Hög | 🔴 Hög |
+| Dataförlust vid borttagning | Låg | Hög | 🔴 Hög |
+| Data visas inte korrekt | Medel | Medel | 🟡 Medel |
+----------------------------------------------
+
+| Risk | Sannolikhet | Påverkan | Risknivå |
+|-----|------------|----------|----------|
+| Manipulation av URL för att nå otillåtna sidor | Låg | Hög | 🔴 Hög |
+----------------------------------------------
+| Risk | Sannolikhet | Påverkan | Risknivå |
+|-----|------------|----------|----------|
+| Brutna länkar mellan sidor | Medel | Medel | 🟡 Medel |
+| Inkonsekvent beteende vid sidbyte | Medel | Medel | 🟡 Medel |
+----------------------------------------------
+
+| Risk | Sannolikhet | Påverkan | Risknivå |
+|-----|------------|----------|----------|
+| Listan uppdateras inte efter ändringar | Medel | Medel | 🟡 Medel |
+| Fel objekt visas i listan | Låg | Medel | 🟡 Medel |
+----------------------------------------------
+
+| Risk | Sannolikhet | Påverkan | Risknivå |
+|-----|------------|----------|----------|
+| Otydliga felmeddelanden | Medel | Låg | 🟡 Medel |
+| Användaren förstår inte nästa steg | Medel | Medel | 🟡 Medel |
+| Otydliga knappar | Medel | Låg | 🟡 Medel |
+| Dålig användbarhet på mindre skärmar | Låg | Medel | 🟡 Medel |
+| Systemet blir instabilt vid hög belastning | Låg | Hög | 🔴 Hög |
+----------------------------------------------
+
+| Risk | Sannolikhet | Påverkan | Risknivå |
+|-----|------------|----------|----------|
+| Ingen bekräftelse efter genomfört köp | Låg | Hög | 🔴 Hög |
+| Processen avbryts utan tydligt felmeddelande | Medel | Hög | 🔴 Hög |
+
+
+
+
+
+
+
+
+
